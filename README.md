@@ -1,2 +1,1 @@
-# jnewlyrics
-Joann Newsom Random Lyric Generator
+# Joanna Newsom Random Lyric Generator
