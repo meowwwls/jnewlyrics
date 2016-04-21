@@ -101,6 +101,13 @@ body {
 img {
   max-width: 100%;
 }
+
+kbd {
+  padding: 0.5em ;
+  text-transform: uppercase;
+  color: #f1ece8;
+  background: rgba(39, 39, 39, .7);
+}
 /*
     ====== TYPOGRAPHY ======
 */
@@ -638,13 +645,16 @@ button:focus {
     ;
     align-items: stretch;
   }
+
   .info {
     position: absolute;
     top: 0.5rem;
     left: 11.25rem;
     display: block;
     opacity: 0.9;
+    cursor: pointer;
   }
+
   .info:hover .tooltip {
     opacity: 0.9;
     visibility: visible;
@@ -652,7 +662,7 @@ button:focus {
 
   title, .tooltip {
     position: absolute;
-    bottom: -4rem;
+    bottom: -6rem;
     left: 0;
     z-index: 50;
     margin-left: .25rem;
@@ -664,6 +674,10 @@ button:focus {
     visibility: hidden;
     opacity: 0;
     transition: all 0.2s ease-in-out;
+  }
+  
+  .tooltip {
+    line-height: 2;
   }
 
   .tooltip::before {
